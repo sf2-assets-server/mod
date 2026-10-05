@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <ConfigVersion Value="" />
+  <ConfigVersions>
+    <ConfigVersion Value="65" PlatformID="1" />
+    <ConfigVersion Value="65" PlatformID="2" />
+    <ConfigVersion Value="" PlatformID="3" />
+    <ConfigVersion Value="65" PlatformID="11" />
+  </ConfigVersions>
+  <ReleaseSendLogChance Hack="1" Exc="1" NuR="1" Dbl="1" />
+  <BalancerItemSortType Value="1" />
+  <UserFractioning Chance="1" />
+  <LocalGemsLimit Value="20000" />
+  <key Value="{crkVRKXTr24dMeioqDZ1wpXL+EuxFr+/snTyTM85Nig8mwoNYeuibAl5Yy3B6RSDCF2DBT4nZYT+25rOyLmatlasxV/0MArFRrNFMkyLHPjkP9X5bp6IJI2h2Q4QzsCiCBKDxP2a3W6Th8C7mWfNpDuynrNDn/ebbeHTI29a0iTaexiZbN+Ib6SBHnkkvaOPHWnpoXuxnYqyzxcJ2w8lCEPO77xQhbzZ+qiK2yEWtIpfaTm1KOwtQrDkeEiAqnviiXH7nUDgug7XFOQfZVi5GmU73aWv1QG+iW1N3qlw79kMuA9q2JMeUdQIhHmYM68GtOusaxHU3A8PAdUZsai/U3WiZuO3nzjHjLLCmYpP2pPm5vlAg0K4Njt2JXGEcUU0RonbTX7X1zN7XBPQMo9x5HtVRrO7gSSebjoSjb8PRo1TGnK+cWbxRkTFoxVxUel+aRHsp46y2pzYX2draLZxaxiV7AM8KqZH4ZCYbi6kdZvhCYZ5/80sXo04/hr7yv8OKl88AbI0xJqAP44vyCMzXaj0ZEy+lqDtyL52zrdVwyXQh+Wcrnqa1SxOFvKexbJeLIbfPxXbOvCw3YGRzpYL3GM/3GKX+TEjPAemdoJaZWH4AZVzDfyAagmLC4WCdjHojuM7jPBg1CB5nSHsydv56O1YJ0ft2GKd/w/B0NUbPyHuVXvIdXG9qqOl81+F74M22qvCubvX3u5YVC6Qyno3S0A4Q8OZG5JLia38P0xeBw0YAjSUTzBENg7SXTYQdB/kNkIidZeP8BQE2JU08J9SWqtfBbZ/5kAPhKrCH6MvQxquH4rw4ua9vHCz/vaOdg60oPDMAgHdqAwQJB3slvmax9fnKAqHEsIp8xld92xmTo5X8zrc9xA3CX3W084qr+Zj5S4sb8wi6LEOeAb25+rSd60DHMzE5gRDVp/RTdpdc7E6QJwWosWUqXDLve8fc34xMp7/GJgZNnsht8CCD5ztal/fDaPUtnxuSiuvsxK+IaAiRkmoSK2eEH2hb+HMMwo9nHBT9QGn5u3x8C4LSdrITQ==}" />
+  <IgnoredExceptions>
+    <ExcData PartName="" PartStackTrace="" PartLog="" />
+    <ExcData PartName="" />
+    <ExcData />
+    <!-- <ExcData PartName="" PartStackTrace="" PartLog="" />-->
+    <ExcData PartName="Socket" PartStackTrace="CUDLR" PartLog="address" />
+    <ExcData PartName="Exc1" PartStackTrace="RaidBetaLog" PartLog="" />
+    <ExcData PartName="Exc2" PartStackTrace="" PartLog="" />
+    <ExcData PartName="Exc2" PartStackTrace="" PartLog="text" />
+    <ExcData PartName="Exc2_AND" PartStackTrace="" PartLog="" Platform="And" />
+    <ExcData PartName="Exc2_IOS" PartStackTrace="" PartLog="" Platform="IOS" />
+  </IgnoredExceptions>
+  <Variables>
+    <!-- Event Vars -->
+    <item Name="EventEnd" Value="1658134800" PlatformID="1,2,3,11" MinVersion="2.21.0" />
+    <item Name="NotEnoughCurrencyColor" Value="#9b1c07" />
+    <item Name="AutoShowRaidDailyWindow" Value="1" />
+    <item Name="SurvivalRestartLimitPerFight" Value="1" />
+    <item Name="SurvivalRestartTimerValue" Value="10" />
+    <item Name="JuniorLotteryTime" Value="86400" PlatformID="1" MinVersion="2.15.0" />
+    <item Name="JuniorLotteryTime" Value="86400" PlatformID="2" MinVersion="2.15.0" />
+    <item Name="JuniorLotteryTime" Value="86400" PlatformID="11" MinVersion="2.15.0" />
+  </Variables>
+  <platform>
+    <item PlatformID="1" Name="iOS" />
+    <item PlatformID="2" Name="Android" />
+    <item PlatformID="3" Name="Simulator" />
+    <item PlatformID="9" Name="Samsung" />
+    <item PlatformID="11" Name="Huawei" />
+  </platform>
+  <versions>
+    <item ID="8" PlatformID="2" Version="3.0.0" ReleaseDate="" />
+    <item ID="9" PlatformID="1" Version="3.0.0" ReleaseDate="" />
+    <item ID="10" PlatformID="3" Version="3.0.0" ReleaseDate="" />
+    <item ID="11" PlatformID="9" Version="3.0.0" ReleaseDate="" />
+    <item ID="12" PlatformID="11" Version="3.0.0" ReleaseDate="" />
+  </versions>
+  <gamedata>    
+  </gamedata>
+  <IconDojo>    
+  </IconDojo>
+  <news>
+  </news>
+  <video>    
+  </video>
+  <settings>
+    <item ID="1" LogFrequency="64" LoginFrequency="900" DumpServerGet="https://shadowfight.dumps.nekkimobile.ru/get.php" DumpServerPut="https://shadowfight.dumps.nekkimobile.ru/put.php" ServerTimeUrl="https://time-server.nekkimobile.ru/time.json" CounterVideo="10" CashbackCounterVideo="10" EnergyCounterVideo="" MultiplierCounterVideo="20" SkipDeliveryCounterVideo="20" LotterySpinCounterVideo="20" MultiplyLotteryCounter="50" SurvivalRestartCounterVideo="3" RaidFightCounterVideo="10" />
+    <time>
+      <item GetUrl="https://time-server.nekkimobile.ru/time.json" />
+    </time>
+    <dumps>
+      <item PutUrl="https://sf2ios-dumps.nekkimobile.ru/put.new.php" GetUrl="https://sf2ios-dumps.nekkimobile.ru/get.new.php" DumpSendInterval="1200" PlatformID="1" />
+      <item PutUrl="https://shadowfight-dumps.nekkimobile.ru/put.new.php" GetUrl="https://shadowfight-dumps.nekkimobile.ru/get.new.php" DumpSendInterval="1200" PlatformID="2" />
+      <item PutUrl="https://shadowfight.dumps.nekkimobile.ru/put.php" GetUrl="https://shadowfight.dumps.nekkimobile.ru/get.php" DumpSendInterval="1200" PlatformID="3" />
+      <item PutUrl="https://sf2samsung-dumps.nekkimobile.ru/put.new.php" GetUrl="https://sf2samsung-dumps.nekkimobile.ru/get.new.php" DumpSendInterval="1200" PlatformID="9" />
+      <item PutUrl="https://sf2huawei-dumps.nekkimobile.ru/put.new.php" GetUrl="https://sf2huawei-dumps.nekkimobile.ru/get.new.php" DumpSendInterval="1200" PlatformID="11" />
+    </dumps>
+    <server>
+      <item PutUrl="https://sf2ios.nekkimobile.ru/put.php" GetUrl="https://sf2ios.nekkimobile.ru/get.php" PlatformID="1" />
+      <item PutUrl="https://shadowfight.nekkimobile.ru/put.php" GetUrl="https://shadowfight.nekkimobile.ru/get.php" PlatformID="2" />
+      <item PutUrl="https://shadowfight.nekkimobile.ru/put.php" GetUrl="https://shadowfight.nekkimobile.ru/get.php" PlatformID="3" />
+      <item PutUrl="https://sf2samsung.nekkimobile.ru/put.php" GetUrl="https://sf2samsung.nekkimobile.ru/get.php" PlatformID="9" />
+      <item PutUrl="https://sf2huawei.nekkimobile.ru/put.php" GetUrl="https://sf2huawei.nekkimobile.ru/get.php" PlatformID="11" />
+    </server>
+    <verification Url="https://payservice.nekkimobile.ru" Timeout="15000" MaxRetry="2" Frequency="1" />
+    <raids configUrl="https://byvn.net/pl8W" />
+    <ledger Url="https://ledger.nekkimobile.ru/" Timeout="5000" MaxRetry="2" />
+    <notifications>
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="1" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="2" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="9" />
+      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="11" />
+    </notifications>
+  </settings>
+  <packs>  
+    <!--android, private server 3.0.0-->
+    <item Name="MODELS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="20961862" Hash="" />
+    <item Name="MODELS_SETS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="21722246" Hash="" />
+    <item Name="LOCATIONS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="28253558" Hash="" />
+    <item Name="UI_AVATARS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="1587766" Hash="" />
+    <item Name="UI_BATTLES" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="1390311" Hash="" />
+    <item Name="UI_CURRENCIES" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="1528669" Hash="" />
+    <item Name="UI_RAIDS_MISC" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="7343738" Hash="" />
+    <item Name="UI_MAPS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="2744269" Hash="" />
+    <item Name="UI_ITEMS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="18503764" Hash="" />
+    <item Name="EFFECT_TITAN" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="18503764" Hash="" />
+    <item Name="UI_SETS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="17508157" Hash="" />
+    <item Name="MUSICS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="23413252" Hash="" />
+    <item Name="LOCATIONS_SHADES_RUINS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="28253558" Hash="" />
+    <item Name="SOUNDS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="10449401" Hash="" />
+    <item Name="EVENTS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="4255509" Hash="" />
+    <item Name="UI_RAIDS_MISC" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="8488861" Hash="" />
+    <item Name="VISUAL_EFFECTS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="8488861" Hash="" />
+    <!--android, huawei 3.0.0-->
+    <item Name="MODELS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="14371542" Hash=""/>
+    <!--android, huawei 3.0.0-->
+    <item Name="CLANS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="76893359" Hash=""/>
+    <item Name="ZONE_RAID" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="87903210" Hash=""/>
+    <!--added packs-->
+    <item Name="AMERICAN_EVENT" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
+    <item Name="ANIMATIONS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
+    <item Name="ANIMATIONS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
+    <item Name="ASCENSION" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
+    <item Name="KEYS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
+    <item Name="LOCATIONS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
+    <item Name="MODELS_ITEMS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
+    <item Name="UI_AVATARS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
+    <item Name="UI_BATTLES_ICONS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
+    <item Name="UI_ITEMS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
+    <item Name="VIP_EVENTS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
+    <item Name="VISUAL_EFFECTS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />       
+  </packs>
+  <price>
+  </price>
+  <currency>
+    <item ID="1" Name="Gold" Alias="money" />
+    <item ID="2" Name="Bonus" Alias="bonus" />
+    <item ID="4" Name="UnlimitedEnergy" Alias="unlimitedenergy" />
+    <item ID="16" Name="ForgeMaterial1" Alias="ForgeMaterial1" />
+    <item ID="17" Name="ForgeMaterial2" Alias="ForgeMaterial2" />
+    <item ID="18" Name="ForgeMaterial3" Alias="ForgeMaterial3" />
+  </currency>
+  <payments>
+    <item ProductType="1" Name="Consumable" />
+    <item ProductType="2" Name="Nonconsumable" />
+  </payments>
+  <advertisement>    
+    <item SpenderTypeID="1" AdRate="100" AdRaidsRate="50" PlatformID="2" />
+    <item SpenderTypeID="2" AdRate="0" AdRaidsRate="0" PlatformID="2" />
+    <item SpenderTypeID="3" AdRate="0" AdRaidsRate="0" PlatformID="2" />
+    <item SpenderTypeID="4" AdRate="0" AdRaidsRate="0" PlatformID="2" />
+    <item SpenderTypeID="5" AdRate="0" AdRaidsRate="0" PlatformID="2" />  
+    <item SpenderTypeID="1" AdRate="100" AdRaidsRate="50" PlatformID="11" />
+    <item SpenderTypeID="2" AdRate="0" AdRaidsRate="0" PlatformID="11" />
+    <item SpenderTypeID="3" AdRate="0" AdRaidsRate="0" PlatformID="11" />
+    <item SpenderTypeID="4" AdRate="0" AdRaidsRate="0" PlatformID="11" />
+    <item SpenderTypeID="5" AdRate="0" AdRaidsRate="0" PlatformID="11" />
+  </advertisement>
+  <VideoAdMultiplier>    
+    <item Zone="ZONE_1" Show="1" PlatformID="1" Multiplier="1.5" />
+    <item Zone="ZONE_2" Show="1" PlatformID="1" Multiplier="1.3" />
+    <item Zone="ZONE_3" Show="1" PlatformID="1" Multiplier="1.4" />
+    <item Zone="ZONE_4" Show="1" PlatformID="1" Multiplier="1.3" />
+    <item Zone="ZONE_5" Show="1" PlatformID="1" Multiplier="1.3" />
+    <item Zone="ZONE_6" Show="1" PlatformID="1" Multiplier="1.3" />
+    <item Zone="ZONE_IM" Show="1" PlatformID="1" Multiplier="1.2" />
+    <item Zone="ZONE_7" Show="1" PlatformID="1" Multiplier="1.3" />
+    
+    <item Zone="ZONE_1" Show="1" PlatformID="2" Multiplier="1.5" />
+    <item Zone="ZONE_2" Show="1" PlatformID="2" Multiplier="1.3" />
+    <item Zone="ZONE_3" Show="1" PlatformID="2" Multiplier="1.4" />
+    <item Zone="ZONE_4" Show="1" PlatformID="2" Multiplier="1.3" />
+    <item Zone="ZONE_5" Show="1" PlatformID="2" Multiplier="1.3" />
+    <item Zone="ZONE_6" Show="1" PlatformID="2" Multiplier="1.3" />
+    <item Zone="ZONE_IM" Show="1" PlatformID="2" Multiplier="1.2" />
+    <item Zone="ZONE_7" Show="1" PlatformID="2" Multiplier="1.3" />
+    
+    <item Zone="ZONE_1" Show="1" PlatformID="11" Multiplier="1.4" />
+    <item Zone="ZONE_2" Show="1" PlatformID="11" Multiplier="1.3" />
+    <item Zone="ZONE_3" Show="1" PlatformID="11" Multiplier="1.3" />
+    <item Zone="ZONE_4" Show="1" PlatformID="11" Multiplier="1.3" />
+    <item Zone="ZONE_5" Show="1" PlatformID="11" Multiplier="1.2" />
+    <item Zone="ZONE_6" Show="1" PlatformID="11" Multiplier="1.2" />
+    <item Zone="ZONE_IM" Show="1" PlatformID="11" Multiplier="1.2" />
+    <item Zone="ZONE_7" Show="1" PlatformID="11" Multiplier="1.2" />
+  </VideoAdMultiplier>
+  <SkipDeliveryTimeAd>    
+    <item ItemOrUpgrade="180" Enchant="1200" PlatformID="1" />
+    <item ItemOrUpgrade="180" Enchant="1200" PlatformID="2" />
+    <item ItemOrUpgrade="180" Enchant="1200" PlatformID="11" />
+  </SkipDeliveryTimeAd>
+  <TapjoyAD>
+    <item FightEndEnabled="0" MapOpenEnabled="0" AbandonInAppPurchaseEnabled="0" OutOfEnergyEnabled="0" AppResumeEnabled="0" PlatformID="1" />
+    <item FightEndEnabled="0" MapOpenEnabled="0" AbandonInAppPurchaseEnabled="0" OutOfEnergyEnabled="0" AppResumeEnabled="0" PlatformID="2" />
+  </TapjoyAD>
+  <RewardedAdViews>
+    <item Type="LotterySpin" Max="6" PlatformID="1" />
+    <item Type="LotterySpin" Max="6" PlatformID="2" />
+    <item Type="LotterySpin" Max="6" PlatformID="11" />
+  </RewardedAdViews>
+  <AdSettings>
+    <item RewardedAdCacheTimeout="15" PlatformID="1" />
+    <item RewardedAdCacheTimeout="15" PlatformID="2" />
+    <item RewardedAdCacheTimeout="15" PlatformID="3" />
+  </AdSettings>
+  <FightSpenderType>   
+    <item SpenderTypeID="1" RetryBtn="0" PlatformID="1" />
+    <item SpenderTypeID="2" RetryBtn="1" PlatformID="1" />
+    <item SpenderTypeID="3" RetryBtn="1" PlatformID="1" />
+    <item SpenderTypeID="4" RetryBtn="1" PlatformID="1" />
+    <item SpenderTypeID="5" RetryBtn="1" PlatformID="1" />
+    
+    <item SpenderTypeID="1" RetryBtn="0" PlatformID="2" />
+    <item SpenderTypeID="2" RetryBtn="1" PlatformID="2" />
+    <item SpenderTypeID="3" RetryBtn="1" PlatformID="2" />
+    <item SpenderTypeID="4" RetryBtn="1" PlatformID="2" />
+    <item SpenderTypeID="5" RetryBtn="1" PlatformID="2" />
+    
+    <item SpenderTypeID="1" RetryBtn="0" PlatformID="3" />
+    <item SpenderTypeID="2" RetryBtn="1" PlatformID="3" />
+    <item SpenderTypeID="3" RetryBtn="1" PlatformID="3" />
+    <item SpenderTypeID="4" RetryBtn="1" PlatformID="3" />
+    <item SpenderTypeID="5" RetryBtn="1" PlatformID="3" />
+   
+    <item SpenderTypeID="1" RetryBtn="0" PlatformID="11" />
+    <item SpenderTypeID="2" RetryBtn="1" PlatformID="11" />
+    <item SpenderTypeID="3" RetryBtn="1" PlatformID="11" />
+    <item SpenderTypeID="4" RetryBtn="1" PlatformID="11" />
+    <item SpenderTypeID="5" RetryBtn="1" PlatformID="11" />
+  </FightSpenderType>
+</data>
