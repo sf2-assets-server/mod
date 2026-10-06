@@ -16,7 +16,6 @@
     <ExcData PartName="" PartStackTrace="" PartLog="" />
     <ExcData PartName="" />
     <ExcData />
-    <!-- <ExcData PartName="" PartStackTrace="" PartLog="" />-->
     <ExcData PartName="Socket" PartStackTrace="CUDLR" PartLog="address" />
     <ExcData PartName="Exc1" PartStackTrace="RaidBetaLog" PartLog="" />
     <ExcData PartName="Exc2" PartStackTrace="" PartLog="" />
@@ -24,8 +23,7 @@
     <ExcData PartName="Exc2_AND" PartStackTrace="" PartLog="" Platform="And" />
     <ExcData PartName="Exc2_IOS" PartStackTrace="" PartLog="" Platform="IOS" />
   </IgnoredExceptions>
-  <Variables>
-    <!-- Event Vars -->
+  <Variables>    
     <item Name="EventEnd" Value="1658134800" PlatformID="1,2,3,11" MinVersion="2.21.0" />
     <item Name="NotEnoughCurrencyColor" Value="#9b1c07" />
     <item Name="AutoShowRaidDailyWindow" Value="1" />
@@ -77,7 +75,7 @@
       <item PutUrl="https://sf2huawei.nekkimobile.ru/put.php" GetUrl="https://sf2huawei.nekkimobile.ru/get.php" PlatformID="11" />
     </server>
     <verification Url="https://payservice.nekkimobile.ru" Timeout="15000" MaxRetry="2" Frequency="1" />
-    <raids configUrl="https://sf2-assets-server.github.io/mod/raid_configs_all.zip" />
+    <raids configUrl="https://ec2.sf2cdn.workers.dev/raid_configs_all.zip" />
     <ledger Url="https://ledger.nekkimobile.ru/" Timeout="5000" MaxRetry="2" />
     <notifications>
       <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="1" />
@@ -86,43 +84,38 @@
       <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="11" />
     </notifications>
   </settings>
-  <packs>  
-    <!--android, private server 3.0.0-->
-    <item Name="MODELS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="20961862" Hash="" />
-    <item Name="MODELS_SETS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="21722246" Hash="" />
-    <item Name="LOCATIONS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="28253558" Hash="" />
-    <item Name="UI_AVATARS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="1587766" Hash="" />
-    <item Name="UI_BATTLES" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="1390311" Hash="" />
-    <item Name="UI_CURRENCIES" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="1528669" Hash="" />
-    <item Name="UI_RAIDS_MISC" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="7343738" Hash="" />
-    <item Name="UI_MAPS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="2744269" Hash="" />
-    <item Name="UI_ITEMS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="18503764" Hash="" />
-    <item Name="EFFECT_TITAN" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="18503764" Hash="" />
-    <item Name="UI_SETS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="17508157" Hash="" />
-    <item Name="MUSICS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="23413252" Hash="" />
-    <item Name="LOCATIONS_SHADES_RUINS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="28253558" Hash="" />
-    <item Name="SOUNDS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="10449401" Hash="" />
-    <item Name="EVENTS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="4255509" Hash="" />
-    <item Name="UI_RAIDS_MISC" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="8488861" Hash="" />
-    <item Name="VISUAL_EFFECTS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="8488861" Hash="" />
-    <!--android, huawei 3.0.0-->
-    <item Name="MODELS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="14371542" Hash=""/>
-    <!--android, huawei 3.0.0-->
-    <item Name="CLANS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="76893359" Hash=""/>
-    <item Name="ZONE_RAID" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="87903210" Hash=""/>
-    <!--added packs-->
-    <item Name="AMERICAN_EVENT" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
-    <item Name="ANIMATIONS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
-    <item Name="ANIMATIONS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
-    <item Name="ASCENSION" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
-    <item Name="KEYS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
-    <item Name="LOCATIONS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
-    <item Name="MODELS_ITEMS_LEGACY" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
-    <item Name="UI_AVATARS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
-    <item Name="UI_BATTLES_ICONS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
-    <item Name="UI_ITEMS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
-    <item Name="VIP_EVENTS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />
-    <item Name="VISUAL_EFFECTS" Url="" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="" />       
+  <packs>
+    <item Name="AMERICAN_EVENTS" Url="https://ec2.sf2cdn.workers.dev/american_events" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="E8FD383B98EB3A03065829AAC7E1E309" />
+    <item Name="ANIMATIONS" Url="https://ec2.sf2cdn.workers.dev/animations" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="79962E9CB2B9CBCFFF2BA654CE80CBD9" />
+    <item Name="ANIMATIONS_LEGACY" Url="https://ec2.sf2cdn.workers.dev/animations_legacy" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="F530367E1126072BFF4D3CF422E039E7" />
+    <item Name="ASCENSION" Url="https://ec2.sf2cdn.workers.dev/ascension" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="E73521EB8F62F1C2FB66FEF173F064F2" />
+    <item Name="CLANS" Url="https://ec2.sf2cdn.workers.dev/clans" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="76893359" Hash="CECF7360734DD6AEB8AF14F0F6B22388" />
+    <item Name="EFFECT_TITAN" Url="https://ec2.sf2cdn.workers.dev/effect_titan" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="18503764" Hash="B8F817559FBD4C288D588AC52C2175A7" />
+    <item Name="EVENTS" Url="https://ec2.sf2cdn.workers.dev/events" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="4255509" Hash="EDE5950369C6F6D0CC27A1CD486F2E06" />
+    <item Name="KEYS" Url="https://ec2.sf2cdn.workers.dev/keys" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="F0EF4A5A13FC51B35F822D482C03AC29" />
+    <item Name="LOCATIONS" Url="https://ec2.sf2cdn.workers.dev/locations" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="66AE4357543F8F65CA5D0E2AD3CB3CF9" />
+    <item Name="LOCATIONS_LEGACY" Url="https://ec2.sf2cdn.workers.dev/locations_legacy" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="28253558" Hash="2E99AC4338EFEF273F4BE539E0FEF1D3" />
+    <item Name="LOCATIONS_SHADES" Url="https://ec2.sf2cdn.workers.dev/locations_shades_ruins" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="28253558" Hash="344F83D55C003E65BF28C88F774188A5" />
+    <item Name="MODELS" Url="https://ec2.sf2cdn.workers.dev/models" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="14371542" Hash="470940404FB450C779C9E577CC83C774" />
+    <item Name="MODELS_ITEMS_LEGACY" Url="https://ec2.sf2cdn.workers.dev/models_items_legacy" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="EA57DE7CD6D3A8F8167895077C097A2D" />
+    <item Name="MODELS_LEGACY" Url="https://ec2.sf2cdn.workers.dev/models_legacy" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="20961862" Hash="2B04E6530097A462E4CC215DAAD1134D" />
+    <item Name="MODELS_SETS_LEGACY" Url="https://ec2.sf2cdn.workers.dev/models_sets_legacy" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="21722246" Hash="97F074AD6656ACB9840B47499E8C415B" />
+    <item Name="MUSICS" Url="https://ec2.sf2cdn.workers.dev/musics" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="23413252" Hash="33A36D0B67959B76F3CE2F2CF8FDA256" />
+    <item Name="SOUNDS" Url="https://ec2.sf2cdn.workers.dev/sounds" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="10449401" Hash="75F3A77F2A617753981384765DDAFF18" />
+    <item Name="UI_AVATARS" Url="https://ec2.sf2cdn.workers.dev/ui_avatars" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="43D1C681FA94574FC2C976FDD3B47B33" />
+    <item Name="UI_AVATARS_LEGACY" Url="https://ec2.sf2cdn.workers.dev/ui_avatars_legacy" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="1587766" Hash="EB80DDD3992654CFDC49285B9A47E896" />
+    <item Name="UI_BATTLES" Url="https://ec2.sf2cdn.workers.dev/ui_battles" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="1390311" Hash="A41F96FEBDF12B0FBF0BB1F202D020EE" />
+    <item Name="UI_BATTLE_ICONS" Url="https://ec2.sf2cdn.workers.dev/ui_battle_icons" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="1866DDF51D9536AC1DAE753579298075" />
+    <item Name="UI_CURRENCIES" Url="https://ec2.sf2cdn.workers.dev/ui_currencies" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="1528669" Hash="E2AF1FE64EC13363969301F57C048221" />
+    <item Name="UI_ITEMS" Url="https://ec2.sf2cdn.workers.dev/ui_items" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="AE572573531D91947327BDD20C017BA3" />
+    <item Name="UI_ITEMS_LEGACY" Url="https://ec2.sf2cdn.workers.dev/ui_items_legacy" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="18503764" Hash="399EEE9B6E1DA748918ED57A7683E941" />
+    <item Name="UI_MAPS" Url="https://ec2.sf2cdn.workers.dev/ui_maps" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="2744269" Hash="4F8296DF330E7B84757AE79C8B5EC104" />
+    <item Name="UI_RAIDS_MISC" Url="https://ec2.sf2cdn.workers.dev/ui_raids_misc" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="8488861" Hash="6E80DE1693F8345FDEA875166AA2EF9F" />
+    <item Name="UI_SETS_LEGACY" Url="https://ec2.sf2cdn.workers.dev/ui_sets_legacy" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="17508157" Hash="967B4DD2A2DD984B15EB45B45410A8E6" />
+    <item Name="VIP_EVENTS" Url="https://ec2.sf2cdn.workers.dev/vip_events" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="86262F8BCA0A05A12EBF9E961FB6FF8A" />
+    <item Name="VISUAL_EFFECTS" Url="https://ec2.sf2cdn.workers.dev/visual_effects" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="0" Hash="90303B0594880CD1A9FF4B0C5BAF0B24" />
+    <item Name="VISUAL_EFFECTS_LEGACY" Url="https://ec2.sf2cdn.workers.dev/visual_effects_legacy" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="8488861" Hash="2ECA71AD38B50C60EF2F31FEDDEC5D29" />
+    <item Name="ZONE_RAID" Url="https://ec2.sf2cdn.workers.dev/zone_raid" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="87903210" Hash="F1DD3879A0A82C3B06EF0EE37292FF68" />
   </packs>
   <price>
   </price>
