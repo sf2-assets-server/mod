@@ -75,7 +75,7 @@
       <item PutUrl="https://sf2huawei.nekkimobile.ru/put.php" GetUrl="https://sf2huawei.nekkimobile.ru/get.php" PlatformID="11" />
     </server>
     <verification Url="https://payservice.nekkimobile.ru" Timeout="15000" MaxRetry="2" Frequency="1" />
-    <raids configUrl="https://ec2.sf2cdn.workers.dev/raid_configs_all.zip" />
+    <raids configUrl="https://ec2.sf2cdn.workers.dev/raid_configs_hack_all.zip" />
     <ledger Url="https://ledger.nekkimobile.ru/" Timeout="5000" MaxRetry="2" />
     <notifications>
       <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="1" />
