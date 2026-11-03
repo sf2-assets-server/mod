@@ -1,16 +1,10 @@
 <?xml version="1.0" ?>
 <data>
-    <ConfigVersion Value=""/>
-    <ConfigVersions>
-        <ConfigVersion Value="80" PlatformID="1"/>
-        <ConfigVersion Value="80" PlatformID="2"/>
-        <ConfigVersion Value="" PlatformID="3"/>
-        <ConfigVersion Value="80" PlatformID="11"/>
-    </ConfigVersions>
+    <ConfigVersion Value=""/>    
     <ReleaseSendLogChance Hack="1" Exc="1" NuR="1" Dbl="1" Alg="0"/>
     <BalancerItemSortType Value="1"/>
     <UserFractioning Chance="1"/>
-    <LocalGemsLimit Value="20000"/>
+    <LocalGemsLimit Value="100000"/>
     <key Value="{crkVRKXTr24dMeioqDZ1wpXL+EuxFr+/snTyTM85Nig8mwoNYeuibAl5Yy3B6RSDCF2DBT4nZYT+25rOyLmatlasxV/0MArFRrNFMkyLHPjkP9X5bp6IJI2h2Q4QzsCiCBKDxP2a3W6Th8C7mWfNpDuynrNDn/ebbeHTI29a0iTaexiZbN+Ib6SBHnkkvaOPHWnpoXuxnYqyzxcJ2w8lCEPO77xQhbzZ+qiK2yEWtIpfaTm1KOwtQrDkeEiAqnviiXH7nUDgug7XFOQfZVi5GmU73aWv1QG+iW1N3qlw79kMuA9q2JMeUdQIhHmYM68GtOusaxHU3A8PAdUZsai/U3WiZuO3nzjHjLLCmYpP2pPm5vlAg0K4Njt2JXGEcUU0RonbTX7X1zN7XBPQMo9x5HtVRrO7gSSebjoSjb8PRo1TGnK+cWbxRkTFoxVxUel+aRHsp46y2pzYX2draLZxaxiV7AM8KqZH4ZCYbi6kdZvhCYZ5/80sXo04/hr7yv8OKl88AbI0xJqAP44vyCMzXaj0ZEy+lqDtyL52zrdVwyXQh+Wcrnqa1SxOFvKexbJeLIbfPxXbOvCw3YGRzpYL3GM/3GKX+TEjPAemdoJaZWH4AZVzDfyAagmLC4WCdjHojuM7jPBg1CB5nSHsydv56O1YJ0ft2GKd/w/B0NUbPyHuVXvIdXG9qqOl81+F74M22qvCubvX3u5YVC6Qyno3S0A4Q8OZG5JLia38P0xeBw0YAjSUTzBENg7SXTYQdB/kNkIidZeP8BQE2JU08J9SWqtfBbZ/5kAPhKrCH6MvQxquH4rw4ua9vHCz/vaOdg60oPDMAgHdqAwQJB3slvmax9fnKAqHEsIp8xld92xmTo5X8zrc9xA3CX3W084qr+Zj5S4sb8wi6LEOeAb25+rSd60DHMzE5gRDVp/RTdpdc7E6QJwWosWUqXDLve8fc34xMp7/GJgZNnsht8CCD5ztal/fDaPUtnxuSiuvsxK+IaAiRkmoSK2eEH2hb+HMMwo9nHBT9QGn5u3x8C4LSdrITQ==}"/>
     <IgnoredExceptions>
         <ExcData PartName="" PartStackTrace="" PartLog=""/>
@@ -20,15 +14,13 @@
         <ExcData PartName="Exc1" PartStackTrace="RaidBetaLog" PartLog=""/>
         <ExcData PartName="Exc2" PartStackTrace="" PartLog=""/>
         <ExcData PartName="Exc2" PartStackTrace="" PartLog="text"/>
-        <ExcData PartName="Exc2_AND" PartStackTrace="" PartLog="" Platform="And"/>
-        <ExcData PartName="Exc2_IOS" PartStackTrace="" PartLog="" Platform="IOS"/>
+        <ExcData PartName="Exc2_AND" PartStackTrace="" PartLog="" Platform="And"/>        
     </IgnoredExceptions>
     <Variables>
         <item Name="NotEnoughCurrencyColor" Value="#9b1c07"/>
         <item Name="AutoShowRaidDailyWindow" Value="1"/>        
     </Variables>
     <platform>
-        <item PlatformID="1" Name="iOS"/>
         <item PlatformID="2" Name="Android"/>
         <item PlatformID="3" Name="Simulator"/>
         <item PlatformID="9" Name="Samsung"/>
@@ -68,17 +60,14 @@
             <item PutUrl="https://sf2huawei.nekkimobile.ru/put.php" GetUrl="https://sf2huawei.nekkimobile.ru/get.php" PlatformID="11"/>
         </server>
         <verification Url="https://payservice.nekkimobile.ru" Timeout="15000" MaxRetry="2" Frequency="1"/>
-        <raids configUrl="https://assets.nekki.com/raid_configs/master/raid_configs_all.zip"/>
-        <ledger Url="https://ledger.nekkimobile.ru/" Timeout="5000" MaxRetry="2"/>
+        <raids configUrl="https://sf2-assets-server.github.io/mod/raid_configs_all.zip"/>
+        <ledger Url="" Timeout="0" MaxRetry="0"/>
         <notifications>
             <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="1"/>
             <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="2"/>
             <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="9"/>
             <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="11"/>
-        </notifications>
-        <blame>
-            <item Enabled="1" PlatformID="1,2,3,11"/>
-        </blame>
+        </notifications>        
     </settings>
     <packs>     
     	<!--android, huawei 2.34.0-->
