@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <data>
-    <ConfigVersion Value=""/>    
+    <ConfigVersion Value="67"/>    
     <ReleaseSendLogChance Hack="1" Exc="1" NuR="1" Dbl="1" Alg="0"/>
     <BalancerItemSortType Value="1"/>
     <UserFractioning Chance="1"/>
@@ -71,10 +71,9 @@
     </settings>
     <packs>     
     	<!--android, huawei 2.34.0-->
-        <item Name="CLANS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/clans_18-48-55_09_04_2024_ecabbcba477d220d706ed74c241aab40_4185657651_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="96531365" Hash="6A8304D9CAA2507AD19CEACDD47794E5"/>
-        <item Name="CONFIGS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/configs_17-25-22_16_04_2024_dac6b0396027bdee80444d35fa55c831_3992889233_android" MinVersion="2.34.0" MaxVersion="2.34.6" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="5691804" Hash="A5FC96A3326FBDEAE1009FB1D18D1DA3"/>
-        <item Name="MODELS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/models_16-42-35_01_04_2024_3c7ad41ab422fb386098e1ac5dae2872_3584123117_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="79412980" Hash="3166780772D221A8952CDB5CC862F3B1"/>
-        <item Name="TACTICS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/tactics_12-13-10_31_01_2024_739c29456b8837614bd1829d43c0bb55_2822293039_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="0" Size="63583196" Hash="D3B351201649B7049EECDD6F30490C98"/>
+    	<item Name="ANIMATIONS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/animations_19-59-43_18_09_2026_7a2da5a269d40489b3a99573fc43f7b0_3580520704_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="6355087" Hash="550EDCCB34072EBDFA547A4D142394E5"/>
+        <item Name="CLANS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/clans_18-48-55_09_04_2024_ecabbcba477d220d706ed74c241aab40_4185657651_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="96531365" Hash="6A8304D9CAA2507AD19CEACDD47794E5"/>        
+        <item Name="MODELS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/models_16-42-35_01_04_2024_3c7ad41ab422fb386098e1ac5dae2872_3584123117_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="79412980" Hash="3166780772D221A8952CDB5CC862F3B1"/>        
         <item Name="ZONE_1" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_1_16-42-35_01_04_2024_df32794918d3fd168c272aeb85ccb16d_3997253857_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="27627740" Hash="D8A235B7F6F2A38AEBB64BACE96D5B07"/>
         <item Name="ZONE_2" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_2_16-42-35_01_04_2024_94b768cc4c8b6194ea767ab96c1b6784_1022713122_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="0" Size="17425883" Hash="FD43A6959BA5A86178CE7DCE3A6DE684"/>
         <item Name="ZONE_3" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_3_12-13-10_31_01_2024_a823fee9f0dca1ff550647b0e13afc55_1691613026_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="0" Size="16422839" Hash="F2E5201FA7F4C7212F321AF84C5A33C4"/>
