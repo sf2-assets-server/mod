@@ -1,110 +1,189 @@
+<?xml version="1.0" ?>
 <data>
-  <ConfigVersion Value="67" />
-  <ReleaseSendLogChance Hack="1" Exc="1" NuR="1" Dbl="1" />
-  <BalancerItemSortType Value="1" />
-  <UserFractioning Chance="1" />
-  <LocalGemsLimit Value="100000" />
-  <key Value="{EaLnMQEOaMKf/6jrQnVqpWwC91O3DJE8PEnmu/fZzf0=}" />
-  <IgnoredExceptions>
-    <ExcData PartName="" PartStackTrace="" PartLog="" />
-    <ExcData PartName="" />
-    <ExcData />
-    <ExcData PartName="Socket" PartStackTrace="CUDLR" PartLog="address" />
-    <ExcData PartName="Exc1" PartStackTrace="RaidBetaLog" PartLog="" />
-    <ExcData PartName="Exc2" PartStackTrace="" PartLog="" />
-    <ExcData PartName="Exc2" PartStackTrace="" PartLog="text" />
-    <ExcData PartName="Exc2_AND" PartStackTrace="" PartLog="" Platform="And" />
-  </IgnoredExceptions>
-  <Variables>
-    <item Name="NotEnoughCurrencyColor" Value="#9b1c07" />
-    <item Name="AutoShowRaidDailyWindow" Value="1" />
-  </Variables>
-  <platform>
-    <item PlatformID="1" Name="iOS" />
-    <item PlatformID="2" Name="Android" />
-    <item PlatformID="3" Name="Simulator" />
-    <item PlatformID="9" Name="Samsung" />
-    <item PlatformID="11" Name="Huawei" />
-  </platform>
-  <versions>
-    <item ID="8" PlatformID="2" Version="3.0.0" ReleaseDate="" />
-    <item ID="12" PlatformID="11" Version="3.0.0" ReleaseDate="" />
-  </versions>
-  <GAMEDATA />
-  <IconDojo>
-    <Icon Type="BP" PlatformID="2,3" url="" EndDate="" StartDate="" ImageURL="" ImageURLHash="" />
-  </IconDojo>
-  <news>
-  </news>
-  <video>
-  </video>
-  <settings>
-    <item ID="1" LogFrequency="64" LoginFrequency="900" DumpServerGet="" DumpServerPut="" ServerTimeUrl="https://time-server.nekkimobile.ru/time.json" CounterVideo="0" />
-    <time>
-      <item GetUrl="https://time-server.nekkimobile.ru/time.json" />
-    </time>
-    <dumps />
-    <server>
-      <item PutUrl="https://shadowfight.nekkimobile.ru/put.php" GetUrl="https://shadowfight.nekkimobile.ru/get.php" PlatformID="2" />
-      <item PutUrl="https://shadowfight.nekkimobile.ru/put.php" GetUrl="https://shadowfight.nekkimobile.ru/get.php" PlatformID="11" />
-    </server>
-    <verification Url="https://payservice.nekkimobile.ru" Timeout="15000" MaxRetry="2" Frequency="1" />
-    <raids configUrl="https://sf2privateserver.com/data/raid_configs/prod/raid_configs_all.zip" />
-    <ledger Url="" Timeout="0" MaxRetry="0" />
-    <notifications>
-      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="2" />
-      <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="11" />
-    </notifications>
-  </settings>
-  <packs>
-    <item Name="CONFIGS" Url="https://sf2privateserver.com/data/bundles/android/configs_02-35-40_31_10_2026_2bcba29dfe54a5b0f4554be73f42ceeebfea0374_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="4865530" Hash="1B54A94570ADBE5F7599815342E50239" />
-    <item Name="ANIMATIONS" Url="https://sf2privateserver.com/data/bundles/android/animations_17-08-16_25_10_2026_282d284ee7d7e384c0a36206c0e66247bd1e2da6_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="1540767" Hash="CF1E8DCCCBE605E4A43E40ADF650CAE9" />
-    <item Name="ANIMATIONS_LEGACY" Url="https://sf2privateserver.com/data/bundles/android/animations_legacy_17-08-23_25_10_2026_e4ea7df7bd9fb557a45f918b7c3df1ded8aeafbe_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="1438071" Hash="98A3CFD0A9A4154C4068A062CF5076CF" />
-    <item Name="MODELS_ITEMS" Url="https://sf2privateserver.com/data/bundles/android/models_items_17-10-11_25_10_2026_c551bf36946ad0f3deeedc3841e00d58c865cc4b_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="5817349" Hash="B9E7E20C3E99B2119F218F55E02718E9" />
-    <item Name="MODELS_ITEMS_LEGACY" Url="https://sf2privateserver.com/data/bundles/android/models_items_legacy_17-10-31_25_10_2026_e27be142c0a1826eeb6a4293a825591bc01df0dc_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="14978827" Hash="6B3291C282E58138CDDF7C285FFE5FF7" />
-    <item Name="MODELS_SETS" Url="https://sf2privateserver.com/data/bundles/android/models_sets_17-11-14_25_10_2026_288f6dcf77d04ba7af5930da9b24cf436d65d465_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="9573246" Hash="403C27A2EAADB8818F7EE365A6B1D8BF" />
-    <item Name="MODELS_SETS_LEGACY" Url="https://sf2privateserver.com/data/bundles/android/models_sets_legacy_02-36-15_31_10_2026_a8059bb7c04b7b4e31c41d431abbf9510e274c7e_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="22769001" Hash="19C0228067D92654F42E7084C84461A0" />
-    <item Name="MODELS_LEGACY" Url="https://sf2privateserver.com/data/bundles/android/models_legacy_02-37-28_31_10_2026_ffb70321523d2d463d89af96c28be8d5f1db71a8_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="21478533" Hash="DFAF3E35542EEE4B7706445505AEDB31" />
-    <item Name="LOCATIONS" Url="https://sf2privateserver.com/data/bundles/android/locations_17-08-33_25_10_2026_66a74fe2bb5bec4c7c3e50f702584db3e95f70ec_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="5207134" Hash="7E13D7C33573877D9C2497446C6F32E0" />
-    <item Name="LOCATIONS_DOJO" Url="https://sf2privateserver.com/data/bundles/android/locations_dojo_03-13-34_31_10_2026_a72e47bada51e88293926a9d42db574c020f016a_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="4964387" Hash="4FE6542CAB2191038D0206CB4447780E" />
-    <item Name="LOCATIONS_LEGACY" Url="https://sf2privateserver.com/data/bundles/android/locations_legacy_19-28-10_30_10_2026_234a918ae529c9fa465106d3154579327c603cb5_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="17181526" Hash="F12AE38F1C598A0EAC0DB1786A322B17" />
-    <item Name="FIGHT_CUSTOMIZATION" Url="https://sf2privateserver.com/data/bundles/android/fight_customization_17-12-38_25_10_2026_7226fc7572c9d4940b76ff6bed3eea9eae90be33_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="667678" Hash="84AD24BAEFC9A237F7BF1CD5B82304AD" />
-    <item Name="UI_AVATARS" Url="https://sf2privateserver.com/data/bundles/android/ui_avatars_17-12-56_25_10_2026_1d56a3bc719f24d51204a2f56e73b7f6084aa55f_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="580211" Hash="D4B4F4F69F3FC7C834F733B8F10AC562" />
-    <item Name="UI_AVATARS_LEGACY" Url="https://sf2privateserver.com/data/bundles/android/ui_avatars_legacy_17-13-09_25_10_2026_5344770051937048f78ac7cce81c5b62f5cdedf3_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="1587766" Hash="ED23445113F9DF6C774B6A4FF8CF3249" />
-    <item Name="UI_BATTLES" Url="https://sf2privateserver.com/data/bundles/android/ui_battles_17-13-43_25_10_2026_7168895af1fdcb86175ce4060123741e2a16cc9b_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="1390311" Hash="9C6515C81AD7B1EC5461943DF4489A8B" />
-    <item Name="UI_BATTLE_ICONS" Url="https://sf2privateserver.com/data/bundles/android/ui_battle_icons_19-30-09_30_10_2026_efbb37365b21dc2596684448874f6162eb71421d_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="2580262" Hash="17E330274273C9D2BE647C83511B5699" />
-    <item Name="UI_MAPS" Url="https://sf2privateserver.com/data/bundles/android/ui_maps_17-14-40_25_10_2026_8582cab1f982125ccc958440eae20fe17baacdaf_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="32759514" Hash="664F71DCDC342BFB5EC3186C7B92A1FE" />
-    <item Name="UI_CURRENCIES" Url="https://sf2privateserver.com/data/bundles/android/ui_currencies_17-13-57_25_10_2026_0a242807adb16f847ca472858480ae987f8feefd_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="1528669" Hash="09C9A4CE7270CC489A58ABC40031E5F9" />
-    <item Name="UI_MISC" Url="https://sf2privateserver.com/data/bundles/android/ui_misc_17-14-22_25_10_2026_828cd22ab39310a83f01cd5170371cd1b597bd1a_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="12745380" Hash="63960562FC87048D8ED30D53B8D7D984" />
-    <item Name="UI_PERKS" Url="https://sf2privateserver.com/data/bundles/android/ui_perks_17-14-55_25_10_2026_9760e4ef168ff57d2d6930556ba6539c348ed29f_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="3691809" Hash="58CB3886597F4BB13C172006133278E7" />
-    <item Name="UI_ITEMS" Url="https://sf2privateserver.com/data/bundles/android/ui_items_17-15-08_25_10_2026_e65ea992f7b95819af0f96a55f48f3d97658da67_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="3440566" Hash="9CEC352607E14DA266834249FE884C63" />
-    <item Name="UI_ITEMS_LEGACY" Url="https://sf2privateserver.com/data/bundles/android/ui_items_legacy_17-16-20_25_10_2026_386f082bd6149a59321feb426a0065a32d350434_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="18503764" Hash="0FD52722C1AE58B97D5676C45676E94B" />
-    <item Name="UI_SETS" Url="https://sf2privateserver.com/data/bundles/android/ui_sets_17-17-24_25_10_2026_c50e0140fc3ea2a52741f2c306a2449d21257f6b_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="2388769" Hash="BB719EDDBCF5CDDE277DE999E8D50F8F" />
-    <item Name="UI_SETS_LEGACY" Url="https://sf2privateserver.com/data/bundles/android/ui_sets_legacy_02-36-53_31_10_2026_dbbbba65f0d603b78408df3b67f8e6e0245fdd76_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="19378002" Hash="CB68FA27E48206BE91094488A1CC35DB" />
-    <item Name="MUSICS" Url="https://sf2privateserver.com/data/bundles/android/musics_17-12-16_25_10_2026_5ab4ad615604c683ee8fe87b3d8693ff32858cee_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="30553958" Hash="F27BA353A2B22407BEF33FF5141D5D7A" />
-    <item Name="SOUNDS" Url="https://sf2privateserver.com/data/bundles/android/sounds_17-12-28_25_10_2026_fff022b7872f4bb3d0653f286c6090c7fd91afd0_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="10649612" Hash="DBB544EB2C73C19162D1AEDD1AF92833" />
-    <item Name="VISUAL_EFFECTS" Url="https://sf2privateserver.com/data/bundles/android/visual_effects_17-18-22_25_10_2026_8e719e1976b23481f801d57deecb8b5a06b3d836_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="13457051" Hash="97E406C6EA9B4A3200BCCF77A021B7B5" />
-    <item Name="VISUAL_EFFECTS_LEGACY" Url="https://sf2privateserver.com/data/bundles/android/visual_effects_legacy_17-19-42_25_10_2026_5630f5b5a629e1ca4aa5a731e195b59d0de0cccf_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="87870867" Hash="FC805F447D0E17A89D081474D3001A83" />
-    <item Name="EVENTS" Url="https://sf2privateserver.com/data/bundles/android/events_03-13-15_31_10_2026_2223ae2661350dd14d83a2ccd5dba449a54e340c_android__full" MinVersion="3.0.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="15355219" Hash="3FED31C0164E85F384890171D8F8A87D" />
-  </packs>
-  <price />
-  <currency>
-    <item ID="1" Name="Gold" Alias="money" />
-    <item ID="2" Name="Bonus" Alias="bonus" />
-    <item ID="3" Name="StarterPack" Alias="starterpack" Gems="30" />
-    <item ID="4" Name="UnlimitedEnergy" Alias="unlimitedenergy" />
-  </currency>
-  <payments>
-    <item ProductType="1" Name="Consumable" />
-    <item ProductType="2" Name="Nonconsumable" />
-  </payments>
-  <RewardedAdViews>
-    <item Type="LotterySpin" Max="1" PlatformID="2" />
-    <item Type="LotterySpin" Max="1" PlatformID="11" />
-  </RewardedAdViews>
-  <AdSettings>
-    <item RewardedAdCacheTimeout="0" PlatformID="2" />
-    <item RewardedAdCacheTimeout="0" PlatformID="11" />
-  </AdSettings>
-  <FightSpenderType />
+    <ConfigVersion Value=""/>    
+    <ReleaseSendLogChance Hack="1" Exc="1" NuR="1" Dbl="1" Alg="0"/>
+    <BalancerItemSortType Value="1"/>
+    <UserFractioning Chance="1"/>
+    <LocalGemsLimit Value="100000"/>
+    <key Value="{crkVRKXTr24dMeioqDZ1wpXL+EuxFr+/snTyTM85Nig8mwoNYeuibAl5Yy3B6RSDCF2DBT4nZYT+25rOyLmatlasxV/0MArFRrNFMkyLHPjkP9X5bp6IJI2h2Q4QzsCiCBKDxP2a3W6Th8C7mWfNpDuynrNDn/ebbeHTI29a0iTaexiZbN+Ib6SBHnkkvaOPHWnpoXuxnYqyzxcJ2w8lCEPO77xQhbzZ+qiK2yEWtIpfaTm1KOwtQrDkeEiAqnviiXH7nUDgug7XFOQfZVi5GmU73aWv1QG+iW1N3qlw79kMuA9q2JMeUdQIhHmYM68GtOusaxHU3A8PAdUZsai/U3WiZuO3nzjHjLLCmYpP2pPm5vlAg0K4Njt2JXGEcUU0RonbTX7X1zN7XBPQMo9x5HtVRrO7gSSebjoSjb8PRo1TGnK+cWbxRkTFoxVxUel+aRHsp46y2pzYX2draLZxaxiV7AM8KqZH4ZCYbi6kdZvhCYZ5/80sXo04/hr7yv8OKl88AbI0xJqAP44vyCMzXaj0ZEy+lqDtyL52zrdVwyXQh+Wcrnqa1SxOFvKexbJeLIbfPxXbOvCw3YGRzpYL3GM/3GKX+TEjPAemdoJaZWH4AZVzDfyAagmLC4WCdjHojuM7jPBg1CB5nSHsydv56O1YJ0ft2GKd/w/B0NUbPyHuVXvIdXG9qqOl81+F74M22qvCubvX3u5YVC6Qyno3S0A4Q8OZG5JLia38P0xeBw0YAjSUTzBENg7SXTYQdB/kNkIidZeP8BQE2JU08J9SWqtfBbZ/5kAPhKrCH6MvQxquH4rw4ua9vHCz/vaOdg60oPDMAgHdqAwQJB3slvmax9fnKAqHEsIp8xld92xmTo5X8zrc9xA3CX3W084qr+Zj5S4sb8wi6LEOeAb25+rSd60DHMzE5gRDVp/RTdpdc7E6QJwWosWUqXDLve8fc34xMp7/GJgZNnsht8CCD5ztal/fDaPUtnxuSiuvsxK+IaAiRkmoSK2eEH2hb+HMMwo9nHBT9QGn5u3x8C4LSdrITQ==}"/>
+    <IgnoredExceptions>
+        <ExcData PartName="" PartStackTrace="" PartLog=""/>
+        <ExcData PartName=""/>
+        <ExcData/>
+        <ExcData PartName="Socket" PartStackTrace="CUDLR" PartLog="address"/>
+        <ExcData PartName="Exc1" PartStackTrace="RaidBetaLog" PartLog=""/>
+        <ExcData PartName="Exc2" PartStackTrace="" PartLog=""/>
+        <ExcData PartName="Exc2" PartStackTrace="" PartLog="text"/>
+        <ExcData PartName="Exc2_AND" PartStackTrace="" PartLog="" Platform="And"/>        
+    </IgnoredExceptions>
+    <Variables>
+        <item Name="NotEnoughCurrencyColor" Value="#9b1c07"/>
+        <item Name="AutoShowRaidDailyWindow" Value="1"/>        
+    </Variables>
+    <platform>
+        <item PlatformID="2" Name="Android"/>
+        <item PlatformID="3" Name="Simulator"/>
+        <item PlatformID="9" Name="Samsung"/>
+        <item PlatformID="11" Name="Huawei"/>
+    </platform>
+    <versions>
+        <item ID="8" PlatformID="2" Version="2.34.0" ReleaseDate=""/>
+        <item ID="9" PlatformID="1" Version="2.34.0" ReleaseDate=""/>
+        <item ID="10" PlatformID="3" Version="" ReleaseDate=""/>
+        <item ID="11" PlatformID="9" Version="2.9.0" ReleaseDate=""/>
+        <item ID="12" PlatformID="11" Version="2.34.0" ReleaseDate=""/>
+    </versions>
+    <gamedata/>
+    <IconDojo>
+    </IconDojo>
+    <news>        
+    </news>
+    <video>
+    </video>
+    <settings>
+        <item ID="1" LogFrequency="64" LoginFrequency="900" DumpServerGet="https://shadowfight.dumps.nekkimobile.ru/get.php" DumpServerPut="https://shadowfight.dumps.nekkimobile.ru/put.php" ServerTimeUrl="https://time-server.nekkimobile.ru/time.json" CounterVideo="10" CashbackCounterVideo="10" EnergyCounterVideo="" MultiplierCounterVideo="20" SkipDeliveryCounterVideo="20" LotterySpinCounterVideo="20" MultiplyLotteryCounter="50" SurvivalRestartCounterVideo="3" RaidFightCounterVideo="10"/>
+        <time>
+            <item GetUrl="https://time-server.nekkimobile.ru/time.json"/>
+        </time>
+        <dumps>
+            <item PutUrl="https://sf2ios-dumps.nekkimobile.ru/put.new.php" GetUrl="https://sf2ios-dumps.nekkimobile.ru/get.new.php" DumpSendInterval="1200" PlatformID="1"/>
+            <item PutUrl="https://shadowfight-dumps.nekkimobile.ru/put.new.php" GetUrl="https://shadowfight-dumps.nekkimobile.ru/get.new.php" DumpSendInterval="1200" PlatformID="2"/>
+            <item PutUrl="https://shadowfight.dumps.nekkimobile.ru/put.php" GetUrl="https://shadowfight.dumps.nekkimobile.ru/get.php" DumpSendInterval="1200" PlatformID="3"/>
+            <item PutUrl="https://sf2samsung-dumps.nekkimobile.ru/put.new.php" GetUrl="https://sf2samsung-dumps.nekkimobile.ru/get.new.php" DumpSendInterval="1200" PlatformID="9"/>
+            <item PutUrl="https://sf2huawei-dumps.nekkimobile.ru/put.new.php" GetUrl="https://sf2huawei-dumps.nekkimobile.ru/get.new.php" DumpSendInterval="1200" PlatformID="11"/>
+        </dumps>
+        <server>
+            <item PutUrl="https://sf2ios.nekkimobile.ru/put.php" GetUrl="https://sf2ios.nekkimobile.ru/get.php" PlatformID="1"/>
+            <item PutUrl="https://shadowfight.nekkimobile.ru/put.php" GetUrl="https://shadowfight.nekkimobile.ru/get.php" PlatformID="2"/>
+            <item PutUrl="https://shadowfight.nekkimobile.ru/put.php" GetUrl="https://shadowfight.nekkimobile.ru/get.php" PlatformID="3"/>
+            <item PutUrl="https://sf2samsung.nekkimobile.ru/put.php" GetUrl="https://sf2samsung.nekkimobile.ru/get.php" PlatformID="9"/>
+            <item PutUrl="https://sf2huawei.nekkimobile.ru/put.php" GetUrl="https://sf2huawei.nekkimobile.ru/get.php" PlatformID="11"/>
+        </server>
+        <verification Url="https://payservice.nekkimobile.ru" Timeout="15000" MaxRetry="2" Frequency="1"/>
+        <raids configUrl="https://sf2-assets-server.github.io/mod/raid_configs_all.zip"/>
+        <ledger Url="" Timeout="0" MaxRetry="0"/>
+        <notifications>
+            <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="1"/>
+            <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="2"/>
+            <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="9"/>
+            <item ResheduleNotificationEnabled="0" ResheduleNotificationDelay="0" PlatformID="11"/>
+        </notifications>        
+    </settings>
+    <packs>     
+    	<!--android, huawei 2.34.0-->
+        <item Name="CLANS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/clans_18-48-55_09_04_2024_ecabbcba477d220d706ed74c241aab40_4185657651_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="96531365" Hash="6A8304D9CAA2507AD19CEACDD47794E5"/>
+        <item Name="CONFIGS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/configs_17-25-22_16_04_2024_dac6b0396027bdee80444d35fa55c831_3992889233_android" MinVersion="2.34.0" MaxVersion="2.34.6" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="5691804" Hash="A5FC96A3326FBDEAE1009FB1D18D1DA3"/>
+        <item Name="MODELS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/models_16-42-35_01_04_2024_3c7ad41ab422fb386098e1ac5dae2872_3584123117_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="79412980" Hash="3166780772D221A8952CDB5CC862F3B1"/>
+        <item Name="TACTICS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/tactics_12-13-10_31_01_2024_739c29456b8837614bd1829d43c0bb55_2822293039_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="0" Size="63583196" Hash="D3B351201649B7049EECDD6F30490C98"/>
+        <item Name="ZONE_1" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_1_16-42-35_01_04_2024_df32794918d3fd168c272aeb85ccb16d_3997253857_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="27627740" Hash="D8A235B7F6F2A38AEBB64BACE96D5B07"/>
+        <item Name="ZONE_2" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_2_16-42-35_01_04_2024_94b768cc4c8b6194ea767ab96c1b6784_1022713122_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="0" Size="17425883" Hash="FD43A6959BA5A86178CE7DCE3A6DE684"/>
+        <item Name="ZONE_3" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_3_12-13-10_31_01_2024_a823fee9f0dca1ff550647b0e13afc55_1691613026_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="0" Size="16422839" Hash="F2E5201FA7F4C7212F321AF84C5A33C4"/>
+        <item Name="ZONE_4" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_4_16-42-35_01_04_2024_def4176eb6141e9525d517639f0e2433_3770511090_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="0" Size="14225872" Hash="8D4469AFB8777A66FBDA5C7DBA864014"/>
+        <item Name="ZONE_5" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_5_12-13-10_31_01_2024_aa8075bf987708c472c9fa8eebf7bacd_2260739885_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="0" Size="15368234" Hash="181308A5BDD7061B313481B66800413F"/>
+        <item Name="ZONE_6" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_6_12-13-10_31_01_2024_cfd5fe4e2b3f096e20a3454a33917a46_1997481071_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="0" Size="26396986" Hash="14217F36DA3BF9EBF074C9A4DCA2EACF"/>
+        <item Name="ZONE_7" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_7_16-42-35_01_04_2024_98a073b0b613155cbac742207c8ca1fb_2744883882_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="0" Size="13197055" Hash="14A1101E05E3AD04437D64145EE65574"/>
+        <item Name="ZONE_7_2" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_7_2_12-13-10_31_01_2024_828d76bf914930767431079f895a085c_3295614242_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="0" Size="3460593" Hash="99851081620F43ADB3D0C2F965A85660"/>
+        <item Name="ZONE_7_3" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_7_3_12-13-10_31_01_2024_a1ed1af50907053d206fc11f8be94da8_3066541345_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="0" Size="14398173" Hash="A70F5B9CEC56745A1E42211B71306DBC"/>
+        <item Name="ZONE_IM" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_im_12-13-10_31_01_2024_c6535ee951de1f8aadb824b2d76d67e9_283075774_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="0" Size="4557006" Hash="CB7E7119E822A3EBBA71C36CFD3CA917"/>
+        <item Name="ZONE_RAID" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_raid_13-53-14_31_01_2024_375cd98d13f6850e4ee9f8f37ee813fb_939677715_android" MinVersion="2.34.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="98041355" Hash="96E7ED878CC1BAF157C10E7EE24E2E38"/>        
+        <!--local 2.34.0-->
+    </packs>
+    <price>
+    </price>
+    <currency>
+        <item ID="1" Name="Gold" Alias="money"/>
+        <item ID="2" Name="Bonus" Alias="bonus"/>       
+        <item ID="4" Name="UnlimitedEnergy" Alias="unlimitedenergy"/>        
+        <item ID="16" Name="ForgeMaterial1" Alias="ForgeMaterial1"/>
+        <item ID="17" Name="ForgeMaterial2" Alias="ForgeMaterial2"/>
+        <item ID="18" Name="ForgeMaterial3" Alias="ForgeMaterial3"/>        
+    </currency>
+    <payments>
+        <item ProductType="1" Name="Consumable"/>
+        <item ProductType="2" Name="Nonconsumable"/>
+    </payments>
+    <advertisement>
+        <item SpenderTypeID="1" AdRate="100" AdRaidsRate="70" PlatformID="1"/>
+        <item SpenderTypeID="2" AdRate="0" AdRaidsRate="0" PlatformID="1"/>
+        <item SpenderTypeID="3" AdRate="0" AdRaidsRate="0" PlatformID="1"/>
+        <item SpenderTypeID="4" AdRate="0" AdRaidsRate="0" PlatformID="1"/>
+        <item SpenderTypeID="5" AdRate="0" AdRaidsRate="0" PlatformID="1"/>
+        <item SpenderTypeID="1" AdRate="100" AdRaidsRate="70" PlatformID="2"/>
+        <item SpenderTypeID="2" AdRate="0" AdRaidsRate="0" PlatformID="2"/>
+        <item SpenderTypeID="3" AdRate="0" AdRaidsRate="0" PlatformID="2"/>
+        <item SpenderTypeID="4" AdRate="0" AdRaidsRate="0" PlatformID="2"/>
+        <item SpenderTypeID="5" AdRate="0" AdRaidsRate="0" PlatformID="2"/>
+        <item SpenderTypeID="1" AdRate="100" AdRaidsRate="70" PlatformID="11"/>
+        <item SpenderTypeID="2" AdRate="0" AdRaidsRate="0" PlatformID="11"/>
+        <item SpenderTypeID="3" AdRate="0" AdRaidsRate="0" PlatformID="11"/>
+        <item SpenderTypeID="4" AdRate="0" AdRaidsRate="0" PlatformID="11"/>
+        <item SpenderTypeID="5" AdRate="0" AdRaidsRate="0" PlatformID="11"/>
+    </advertisement>
+    <VideoAdMultiplier>
+        <item Zone="ZONE_1" Show="1" PlatformID="1" Multiplier="1.5"/>
+        <item Zone="ZONE_2" Show="1" PlatformID="1" Multiplier="1.3"/>
+        <item Zone="ZONE_3" Show="1" PlatformID="1" Multiplier="1.4"/>
+        <item Zone="ZONE_4" Show="1" PlatformID="1" Multiplier="1.3"/>
+        <item Zone="ZONE_5" Show="1" PlatformID="1" Multiplier="1.3"/>
+        <item Zone="ZONE_6" Show="1" PlatformID="1" Multiplier="1.3"/>
+        <item Zone="ZONE_IM" Show="1" PlatformID="1" Multiplier="1.2"/>
+        <item Zone="ZONE_7" Show="1" PlatformID="1" Multiplier="1.3"/>
+        <item Zone="ZONE_1" Show="1" PlatformID="2" Multiplier="1.5"/>
+        <item Zone="ZONE_2" Show="1" PlatformID="2" Multiplier="1.3"/>
+        <item Zone="ZONE_3" Show="1" PlatformID="2" Multiplier="1.4"/>
+        <item Zone="ZONE_4" Show="1" PlatformID="2" Multiplier="1.3"/>
+        <item Zone="ZONE_5" Show="1" PlatformID="2" Multiplier="1.3"/>
+        <item Zone="ZONE_6" Show="1" PlatformID="2" Multiplier="1.3"/>
+        <item Zone="ZONE_IM" Show="1" PlatformID="2" Multiplier="1.2"/>
+        <item Zone="ZONE_7" Show="1" PlatformID="2" Multiplier="1.3"/>
+        <item Zone="ZONE_1" Show="1" PlatformID="11" Multiplier="1.4"/>
+        <item Zone="ZONE_2" Show="1" PlatformID="11" Multiplier="1.3"/>
+        <item Zone="ZONE_3" Show="1" PlatformID="11" Multiplier="1.3"/>
+        <item Zone="ZONE_4" Show="1" PlatformID="11" Multiplier="1.3"/>
+        <item Zone="ZONE_5" Show="1" PlatformID="11" Multiplier="1.2"/>
+        <item Zone="ZONE_6" Show="1" PlatformID="11" Multiplier="1.2"/>
+        <item Zone="ZONE_IM" Show="1" PlatformID="11" Multiplier="1.2"/>
+        <item Zone="ZONE_7" Show="1" PlatformID="11" Multiplier="1.2"/>
+    </VideoAdMultiplier>
+    <SkipDeliveryTimeAd>
+        <item ItemOrUpgrade="180" Enchant="1200" PlatformID="1"/>
+        <item ItemOrUpgrade="180" Enchant="1200" PlatformID="2"/>
+        <item ItemOrUpgrade="180" Enchant="1200" PlatformID="11"/>
+    </SkipDeliveryTimeAd>
+    <TapjoyAD>
+        <item FightEndEnabled="0" MapOpenEnabled="0" AbandonInAppPurchaseEnabled="0" OutOfEnergyEnabled="0" AppResumeEnabled="0" PlatformID="1"/>
+        <item FightEndEnabled="0" MapOpenEnabled="0" AbandonInAppPurchaseEnabled="0" OutOfEnergyEnabled="0" AppResumeEnabled="0" PlatformID="2"/>
+    </TapjoyAD>
+    <RewardedAdViews>
+        <item Type="LotterySpin" Max="6" PlatformID="1"/>
+        <item Type="LotterySpin" Max="6" PlatformID="2"/>
+        <item Type="LotterySpin" Max="6" PlatformID="11"/>
+    </RewardedAdViews>
+    <AdSettings>
+        <item RewardedAdCacheTimeout="15" PlatformID="1"/>
+        <item RewardedAdCacheTimeout="15" PlatformID="2"/>
+        <item RewardedAdCacheTimeout="15" PlatformID="3"/>
+    </AdSettings>
+    <FightSpenderType>
+        <item SpenderTypeID="1" RetryBtn="0" PlatformID="1"/>
+        <item SpenderTypeID="2" RetryBtn="1" PlatformID="1"/>
+        <item SpenderTypeID="3" RetryBtn="1" PlatformID="1"/>
+        <item SpenderTypeID="4" RetryBtn="1" PlatformID="1"/>
+        <item SpenderTypeID="5" RetryBtn="1" PlatformID="1"/>
+        <item SpenderTypeID="1" RetryBtn="0" PlatformID="2"/>
+        <item SpenderTypeID="2" RetryBtn="1" PlatformID="2"/>
+        <item SpenderTypeID="3" RetryBtn="1" PlatformID="2"/>
+        <item SpenderTypeID="4" RetryBtn="1" PlatformID="2"/>
+        <item SpenderTypeID="5" RetryBtn="1" PlatformID="2"/>
+        <item SpenderTypeID="1" RetryBtn="0" PlatformID="3"/>
+        <item SpenderTypeID="2" RetryBtn="1" PlatformID="3"/>
+        <item SpenderTypeID="3" RetryBtn="1" PlatformID="3"/>
+        <item SpenderTypeID="4" RetryBtn="1" PlatformID="3"/>
+        <item SpenderTypeID="5" RetryBtn="1" PlatformID="3"/>
+        <item SpenderTypeID="1" RetryBtn="0" PlatformID="11"/>
+        <item SpenderTypeID="2" RetryBtn="1" PlatformID="11"/>
+        <item SpenderTypeID="3" RetryBtn="1" PlatformID="11"/>
+        <item SpenderTypeID="4" RetryBtn="1" PlatformID="11"/>
+        <item SpenderTypeID="5" RetryBtn="1" PlatformID="11"/>
+    </FightSpenderType>
 </data>
