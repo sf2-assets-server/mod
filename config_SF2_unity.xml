@@ -41,11 +41,11 @@
     <item PlatformID="11" Name="Huawei" />
   </platform>
   <versions>
-    <item ID="8" PlatformID="2" Version="3.0.0" ReleaseDate="" />
-    <item ID="9" PlatformID="1" Version="3.0.0" ReleaseDate="" />
-    <item ID="10" PlatformID="3" Version="3.0.0" ReleaseDate="" />
-    <item ID="11" PlatformID="9" Version="3.0.0" ReleaseDate="" />
-    <item ID="12" PlatformID="11" Version="3.0.0" ReleaseDate="" />
+    <item ID="8" PlatformID="2" Version="2.27.0" ReleaseDate="" />
+    <item ID="9" PlatformID="1" Version="2.27.0" ReleaseDate="" />
+    <item ID="10" PlatformID="3" Version="2.27.0" ReleaseDate="" />
+    <item ID="11" PlatformID="9" Version="2.27.0" ReleaseDate="" />
+    <item ID="12" PlatformID="11" Version="2.27.0" ReleaseDate="" />
   </versions>
   <gamedata>    
   </gamedata>
@@ -85,6 +85,11 @@
     </notifications>
   </settings>
   <packs>    
+    <!--android, huawei 2.27.0-->
+    <item Name="CLANS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/clans_18-49-32_25_05_2023_85044cdb6e5f255f327a7f1b85a4b5ab_2983851894_android" MinVersion="2.27.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="73883139" Hash="EE40B678F1A89CF573C70646E0A29807"/>
+    <item Name="CONFIGS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/configs_18-23-55_26_05_2023_6b55179a4eb0783e0c214a8af6a1ba37_4248413133_android" MinVersion="2.27.0" MaxVersion="2.34.6" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="3534796" Hash="26F263B43E598EA5A52751116CAC02C8"/>
+    <item Name="MODELS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/models_12-45-11_24_05_2023_19fd6c2273f3c86c07961d5d3b6d1a34_1591564987_android" MinVersion="2.27.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="80192303" Hash="EAD1F60F9A00D3519F7DE18B5F812003"/>    
+    <item Name="ZONE_RAID" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_raid_12-45-11_24_05_2023_d63ff1aa640c7133701eaf478a1cd2e5_3583975616_android" MinVersion="2.27.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="87980025" Hash="B36EFAE660826F423685FBAAA74A58C1"/>
   </packs>
   <price>
   </price>
@@ -92,9 +97,6 @@
     <item ID="1" Name="Gold" Alias="money" />
     <item ID="2" Name="Bonus" Alias="bonus" />
     <item ID="4" Name="UnlimitedEnergy" Alias="unlimitedenergy" />
-    <item ID="16" Name="ForgeMaterial1" Alias="ForgeMaterial1" />
-    <item ID="17" Name="ForgeMaterial2" Alias="ForgeMaterial2" />
-    <item ID="18" Name="ForgeMaterial3" Alias="ForgeMaterial3" />
   </currency>
   <payments>
     <item ProductType="1" Name="Consumable" />
