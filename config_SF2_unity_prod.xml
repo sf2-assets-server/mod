@@ -78,11 +78,10 @@
     </settings>
     <packs>
       <!--android, huawei 2.27.0-->
-      <item Name="ANIMATIONS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/animations_19-59-43_18_09_2026_7a2da5a269d40489b3a99573fc43f7b0_3580520704_android" MinVersion="2.27.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="6355087" Hash="550EDCCB34072EBDFA547A4D142394E5"/>
-      <item Name="CLANS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/clans_18-59-34_27_10_2026_af5551e44394903b084dbd56795780ba_3589569612_android" MinVersion="2.27.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="72094489" Hash="8135B00291DC5EB4D43F34FB58636496"/>
+      <item Name="CLANS" Url="https://ec2.sf2cdn.workers.dev/clans" MinVersion="2.27.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="73883139" Hash="EE40B678F1A89CF573C70646E0A29807"/>
       <item Name="CONFIGS" Url="https://ec2.sf2cdn.workers.dev/configs" MinVersion="2.27.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="3534796" Hash="26F263B43E598EA5A52751116CAC02C8"/>
-      <item Name="MODELS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/models_13-11-13_21_09_2026_6de7c56d02f04b7c96b209379216ff96_2602702795_android" MinVersion="2.27.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="81039982" Hash="0FE1A6E3BB7C56AED789A8694B93E5C6"/>
-      <item Name="ZONE_RAID" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_raid_18-59-34_27_10_2026_d40bab29f952487b805e59514cc59809_3618642921_android" MinVersion="2.27.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="103093226" Hash="F810BE8FA11DB845021C4D39168D90DC"/>
+      <item Name="MODELS" Url="https://ec2.sf2cdn.workers.dev/models" MinVersion="2.27.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="80192303" Hash="EAD1F60F9A00D3519F7DE18B5F812003"/>    
+      <item Name="ZONE_RAID" Url="https://ec2.sf2cdn.workers.dev/zone_raid" MinVersion="2.27.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="87980025" Hash="B36EFAE660826F423685FBAAA74A58C1"/>
     </packs>
     <price>        
     </price>
