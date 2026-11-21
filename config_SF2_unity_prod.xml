@@ -57,9 +57,9 @@
     </settings>
     <packs>
         <!--android, huawei 2.26.0-->
-        <item Name="CLANS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/clans_16-56-22_13_04_2023_569241605c11bbdb4c867af956b43e55_3919909004_android" MinVersion="2.26.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="70107636" Hash="2965EF6282AE63EB94F3263B1B45DD32"/>
-        <item Name="MODELS" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/models_17-10-27_28_03_2023_0691dce18b5fb4bdc22251bd5b29194c_3060790445_android" MinVersion="2.26.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="15431609" Hash="83746594FF19D6CCDEFC27C180C98E16"/>        
-        <item Name="ZONE_RAID" Url="https://assets.nekki.com/shadowfight/unity_packs/SF2_free/zone_raid_12-32-11_27_03_2023_57bdfd2f95ea4acea98866a6113cb45e_804979510_android" MinVersion="2.26.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="85884196" Hash="F67DD4A7507CCC877215534E3766E31E"/>
+        <item Name="CLANS" Url="https://ec2.sf2cdn.workers.dev/clans" MinVersion="2.26.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="70107636" Hash="2965EF6282AE63EB94F3263B1B45DD32"/>
+        <item Name="MODELS" Url="https://ec2.sf2cdn.workers.dev/models" MinVersion="2.26.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="15431609" Hash="83746594FF19D6CCDEFC27C180C98E16"/>        
+        <item Name="ZONE_RAID" Url="https://ec2.sf2cdn.workers.dev/zone_raid" MinVersion="2.26.0" PlatformID="2,11" Attach="1" Active="0" Reload="1" Size="85884196" Hash="F67DD4A7507CCC877215534E3766E31E"/>
     </packs>
     <price>       
     </price>
